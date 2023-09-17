@@ -1,4 +1,5 @@
-#include "graphic.h"
+#include <graphic.h>
+
 #include <stdio.h>
 
 void clear() { printf("\033[2J\033[1;1H"); }

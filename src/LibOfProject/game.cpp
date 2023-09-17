@@ -1,7 +1,8 @@
-#include "game.h"
-#include "graphic.h"
-#include "logic.h"
-#include "message.h"
+#include <game.h>
+#include <graphic.h>
+#include <logic.h>
+#include <message.h>
+
 #include <stdio.h>
 
 int Input();
@@ -16,7 +17,7 @@ int Input() {
 }
 
 void Game() {
-  const int endnum = 10;
+  const int endnum = 100;
   int matchs_counter = 0, player1 = 0, player2 = 0, step_flag = 1;
   Print(player1, player2, matchs_counter);
   while (EndOfGame(matchs_counter, endnum)) {

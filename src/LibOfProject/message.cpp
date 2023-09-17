@@ -1,5 +1,6 @@
-#include "message.h"
-#include "graphic.h"
+#include <graphic.h>
+#include <message.h>
+
 #include <stdio.h>
 
 void ErrorM() {

@@ -1,4 +1,4 @@
-#include "logic.h"
+#include <logic.h>
 
 int EndOfGame(int x, int y) {
   int ret;

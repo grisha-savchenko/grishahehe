@@ -1,7 +1,7 @@
 APP_NAME = project
 LIB_NAME = LibOfProject
 
-source_dirs = src/LibOfProject test_src/test_lib
+source_dirs = src/LibOfProject test_src/test_lib thirdparty
 
 CFLAGS = -Wall -Wextra -Werror
 CPPFLAGS = $(addprefix -I,$(source_dirs)) -MMD
